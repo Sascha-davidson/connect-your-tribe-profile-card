@@ -120,23 +120,23 @@ hr {
   transform: rotateY(-180deg);
 }
 
-/* test dat niet werk zoals ik wil (de code werkt wel) */
+/* test dat niet werk zoals ik wil (de code werkt wel) 
 
-/* @media (hover: hover) { */
+  @media (hover: hover) { 
 
-/* targets diveses that can hover */
+  ---targets diveses that can hover--- 
 
-/* .flip-card:hover .flip-card-inner,
+  .flip-card:hover .flip-card-inner,
   .flip-card:focus-within .flip-card-inner {
     transform: rotateY(-180deg);
   } 
-} */
+} 
 
-/* @media (hover: none) { */
+  @media (hover: none) { 
 
-/* target devices that don't hover */
+  ---target devices that don't hover---
 
-/* .flip{
+  .flip{
     transform: rotateY(-180deg);
   }
 } */
@@ -176,10 +176,10 @@ hr {
 
 .logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
+  padding: 2em 0 0 2em;
+  width: 50%;
 }
+
 
 /* flip card back content */
 
@@ -199,7 +199,7 @@ hr {
   text-underline-offset: 7px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 1.125em;
+  font-size: 1em;
   margin-bottom: 0.5em;
 }
 
@@ -228,4 +228,11 @@ hr {
   p {
     font-size: 1.125em;
   }
+
+  .contact-info a {
+
+    font-size: 1.125em;
+
+  }
+  
 }
