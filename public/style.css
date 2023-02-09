@@ -207,6 +207,7 @@ hr {
   color: hsl(354, 98%, 61%);
 }
 
+/* scherm groote van af (544px = 34em) */
 @media screen and (min-width: 34em) {
   /* flip card */
 
