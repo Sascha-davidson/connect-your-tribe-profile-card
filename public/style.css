@@ -93,10 +93,10 @@ hr {
 
 .flip-card {
   position: absolute;
-  height: 90vh;
-  height: 90svh;
-  width: 90vw;
-  width: 90svw;
+  height: 80vh;
+  height: 80svh;
+  width: 80vw;
+  width: 80svw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
