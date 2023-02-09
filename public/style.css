@@ -115,23 +115,31 @@ hr {
   box-shadow: var(--box-shadow);
 }
 
-/* .flip-active {
-  transform: rotateY(180deg);
-} */
+.flip-card:hover .flip-card-inner,
+.flip-card:focus-within .flip-card-inner {
+  transform: rotateY(-180deg);
+}
 
-@media (hover: hover) {
-  /* targets diveses that can hover */
-  .flip-card:hover .flip-card-inner,
+/* test dat niet werk zoals ik wil (de code werkt wel) */
+
+/* @media (hover: hover) { */
+
+/* targets diveses that can hover */
+
+/* .flip-card:hover .flip-card-inner,
   .flip-card:focus-within .flip-card-inner {
     transform: rotateY(-180deg);
-  }
-}
-@media (hover: none) {
-  /* target devices that don't hover */
-  .flip{
+  } 
+} */
+
+/* @media (hover: none) { */
+
+/* target devices that don't hover */
+
+/* .flip{
     transform: rotateY(-180deg);
   }
-}
+} */
 
 /* Position the front and back side */
 .flip-card-front,
@@ -208,9 +216,7 @@ hr {
     min-width: 19em;
     height: 70vh;
     height: 70svh;
-
   }
-
 
   .flip-card-back {
     padding: 2em;
