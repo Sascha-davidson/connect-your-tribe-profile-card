@@ -3,7 +3,9 @@
   --box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
 }
 
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -100,6 +102,7 @@ hr {
   transform: translate(-50%, -50%);
   max-height: 67.5em;
   min-width: 17.5em;
+  perspective: 1000px;
 }
 
 .flip-card-inner {
@@ -112,12 +115,22 @@ hr {
   box-shadow: var(--box-shadow);
 }
 
-.flip-card:hover .flip-card-inner {
+/* .flip-active {
   transform: rotateY(180deg);
-}
+} */
 
-.flip-active {
-  transform: rotateY(180deg);
+@media (hover: hover) {
+  /* targets diveses that can hover */
+  .flip-card:hover .flip-card-inner,
+  .flip-card:focus-within .flip-card-inner {
+    transform: rotateY(-180deg);
+  }
+}
+@media (hover: none) {
+  /* target devices that don't hover */
+  .flip{
+    transform: rotateY(-180deg);
+  }
 }
 
 /* Position the front and back side */
@@ -133,11 +146,12 @@ hr {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
+  background-color: #fff;
   background-image: url("../links/me.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #fff;
+  background-position: 43% 50%;
 }
 
 /* Style the back side */
@@ -145,7 +159,7 @@ hr {
   background-color: #fff;
   color: black;
   transform: rotateY(180deg);
-  padding: 2em;
+  padding: 1em;
   padding-right: calc(2em - 1.375em);
   overflow-y: scroll;
 }
@@ -178,7 +192,7 @@ hr {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 1.125em;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .contact-info a:hover {
@@ -191,6 +205,7 @@ hr {
   .flip-card {
     width: auto;
     aspect-ratio: 9/16;
+    min-width: 19em;
   }
 
   .flip-card-back {
