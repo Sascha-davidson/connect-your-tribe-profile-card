@@ -206,7 +206,11 @@ hr {
     width: auto;
     aspect-ratio: 9/16;
     min-width: 19em;
+    height: 70vh;
+    height: 70svh;
+
   }
+
 
   .flip-card-back {
     padding: 2em;
