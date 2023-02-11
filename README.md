@@ -1,33 +1,44 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Profile card
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
-
-![image](https://user-images.githubusercontent.com/112861160/218064454-d239dd39-b091-40d5-bf91-e1e5d210413d.png)
-
 
 ## Inhoudsopgave
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
+  * [De opdracht](#De-opdracht)
+  * [De product](#De-product)
+  * [Interactie](#Interactie)
+  * [Tools](#Tools)
   * [Licentie](#licentie)
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+<br>
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+## De opdracht 
 
-## Installatie
+Voor deze opdracht moesten we de visite kaartje die we aan het begin van het jaar hebben gemaakt verbeteren. Voor deze opdracht hebben we onze vizite kaartje gemaakt met Note en een Api. 
 
-## Gebruik
+<br>
 
-## Bronnen
+## De product
+
+https://zany-gray-pronghorn-kilt.cyclic.app/
+
+![image](https://user-images.githubusercontent.com/112861160/218064454-d239dd39-b091-40d5-bf91-e1e5d210413d.png)
+
+<br>
+
+## Interactie 
+De gebruiker kan op deze pagina informatie vinden over mij. Er zit een hover op mijn kaartje, als je er op hoevert dan drijd het kaartje om en kan je de informatie over mij vinden.
+
+<br>
+
+## Tools
+* HTML
+* CSS
+* VISUAL STUDIO CODE
+* Note
+* api
+
+<br>
 
 ## Licentie
 
