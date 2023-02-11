@@ -1,7 +1,10 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
+# Profile card
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+
+![image](https://user-images.githubusercontent.com/112861160/218064454-d239dd39-b091-40d5-bf91-e1e5d210413d.png)
+
 
 ## Inhoudsopgave
 
