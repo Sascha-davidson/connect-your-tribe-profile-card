@@ -31,12 +31,24 @@
 
 ::-webkit-scrollbar-track-piece:end {
   background: transparent;
+  margin-bottom: calc(1em - 0.5rem);
+}
+
+::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: calc(1em - 0.5rem);
+}
+
+@media screen and (min-width: 34em) {
+::-webkit-scrollbar-track-piece:end {
+  background: transparent;
   margin-bottom: calc(2em - 0.5rem);
 }
 
 ::-webkit-scrollbar-track-piece:start {
   background: transparent;
   margin-top: calc(2em - 0.5rem);
+}
 }
 
 /* body */
