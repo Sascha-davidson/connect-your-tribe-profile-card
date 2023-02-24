@@ -14,7 +14,7 @@
 
 ## De opdracht 
 
-Voor deze opdracht moesten we de visite kaartje die we aan het begin van het jaar hebben gemaakt verbeteren. Voor deze opdracht hebben we onze vizite kaartje gemaakt met Note en een Api. 
+Voor deze opdracht moesten we de visite kaartje die we aan het begin van het jaar hebben gemaakt verbeteren. Voor deze opdracht hebben we onze vizite kaartje gemaakt met Node en een Api. 
 
 <br>
 
@@ -35,7 +35,7 @@ De gebruiker kan op deze pagina informatie vinden over mij. Er zit een hover op 
 * HTML
 * CSS
 * VISUAL STUDIO CODE
-* Note
+* Node
 * api
 
 <br>
