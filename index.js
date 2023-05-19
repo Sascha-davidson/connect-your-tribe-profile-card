@@ -1,5 +1,5 @@
 // Importeer express uit de node_modules map
-import express, { json, response } from 'express'
+import express from "express";
 
 const url = 'https://whois.fdnd.nl/api/v1/member/sascha-davidson'
 const data = await fetch(url). then((response) => response.json())
